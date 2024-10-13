@@ -1,0 +1,14 @@
+{
+    "images": [
+      {
+        "title": "golden",
+        "url": "images/golden.jpeg",
+        "alt": "A beautiful sunset"
+      },
+      {
+        "title": "golden2",
+        "url": "images/golden2.jpeg",
+        "alt": "golden2"
+      }
+    ]
+  }

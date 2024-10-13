@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" type="text/css" href="assets/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="header-content">
+        <div class="blog-name">
+          <a href="/">Ugur's Personal Documentation</a>
+        </div>
+        <nav class="menu">
+          <a href="/">Home</a>
+          <a href="https://snap.as/ugurelveren/analog" target="_blank">Analog</a>
+          <a href="/contact.md">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Full-width column before the three columns -->
+    <div class="full-width-column" id="full-width-content">
+      <p>Welcome to my personal image gallery! Enjoy exploring the photos I've captured.</p>
+    </div>
+
+    <!-- Image Gallery Section -->
+    <div class="gallery" id="gallery">
+        <!-- Images will be dynamically added here -->
+    </div>
+
+    <!-- Zoomed-in Image Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="caption" id="caption"></div>
+        <a class="prev" id="prev">&lt;</a>
+        <a class="next" id="next">&gt;</a>
+    </div>
+  </div> <!-- End container div -->
+
+  <!-- Add the footer here -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2024 My Image Gallery. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/gallery.js"></script>
+</body>
+
+
+
+</html>
