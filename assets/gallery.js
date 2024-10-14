@@ -24,7 +24,7 @@ function loadGallery() {
   images.forEach((image, index) => {
     const imgElement = document.createElement('img');
     imgElement.src = image.url;
-    imgElement.alt = image.alt;
+    imgElement.alt = "Creative Commons Attribution-NonCommercial 4.0 International Public License";
     imgElement.addEventListener('click', () => openModal(index));
     gallery.appendChild(imgElement);
   });
@@ -35,7 +35,7 @@ function openModal(index) {
   currentIndex = index;
   modal.style.display = 'block';
   modalImage.src = images[currentIndex].url;
-  caption.textContent = images[currentIndex].alt;
+  caption.textContent = "Creative Commons Attribution-NonCommercial 4.0 International Public License";
 }
 
 // Close the modal
