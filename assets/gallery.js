@@ -23,7 +23,7 @@ fetch('data/images.json')
 function loadGallery() {
   images.forEach((image, index) => {
     const imgElement = document.createElement('img');
-    imgElement.src = image.url;
+    imgElement.src = image.thumbnail;
     imgElement.alt = "Creative Commons Attribution-NonCommercial 4.0 International Public License";
     imgElement.addEventListener('click', () => openModal(index));
     gallery.appendChild(imgElement);
