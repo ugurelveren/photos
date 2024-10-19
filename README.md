@@ -105,4 +105,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## License
 
 - **Source Code**: This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-- **Images**: All images in the `/images/` folder are licensed under the **Creative Commons Attribution-NonCommercial 4.0 International Public License**. See the [LICENSE](IMAge-LICENSE). You can learn more about this license [here](https://creativecommons.org/licenses/by-nc/4.0/).
+- **Images**: All images in the `/images/` folder are licensed under the **Creative Commons Attribution-NonCommercial 4.0 International Public License**. See the [LICENSE](IMAGE-LICENSE). You can learn more about this license [here](https://creativecommons.org/licenses/by-nc/4.0/).
